@@ -4,8 +4,6 @@ name: ETL Wheater
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: '0 19 */2 * *'
 
   workflow_dispatch:
 
